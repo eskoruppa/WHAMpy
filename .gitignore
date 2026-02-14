@@ -46,3 +46,6 @@
 **OLD/
 **OLD*/
 
+# ignore specs
+specifications.md
+
