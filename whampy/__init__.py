@@ -1,0 +1,1 @@
+from .wham_solver import WhamSolver, WhamResult
