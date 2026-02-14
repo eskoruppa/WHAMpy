@@ -13,5 +13,6 @@ __version__ = "0.1.0"
 __author__ = "Enrico Skoruppa"
 
 from .wham_solver import WhamSolver, WhamResult
+from .wham_errors import bootstrap_errors, analytical_errors, WhamErrors 
 
 __all__ = ["WhamSolver", "WhamResult"]

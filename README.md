@@ -57,7 +57,7 @@ Properties **`n_windows`** and **`grid_shape`** report the current state.
 
 ## Solving
 
-- **`solve()`** — run the WHAM self-consistency iteration and return a `WhamResult`. Automatically warm-starts from previous free energies when windows are added incrementally, dramatically reducing iteration count.
+- **`solve()`** — run the WHAM self-consistency iteration and return a `WhamResult`. Automatically warm-starts from previous free energies when windows are added incrementally, to reduce iteration count.
 
 The solver operates in either **lazy** (default) or **eager** mode:
 
