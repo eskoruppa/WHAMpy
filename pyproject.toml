@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whampy"
+version = "0.1.0"
+description = "A general-purpose Weighted Histogram Analysis Method (WHAM) solver for umbrella sampling simulations"
+readme = "README.md"
+license = "GPL-2.0-only"
+requires-python = ">=3.8"
+authors = [
+    { name = "Enrico Skoruppa" },
+]
+keywords = ["WHAM", "umbrella-sampling", "free-energy", "molecular-dynamics", "biophysics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/eskoruppa/WHAMpy"
+Repository = "https://github.com/eskoruppa/WHAMpy"
+Issues = "https://github.com/eskoruppa/WHAMpy/issues"
+
+[tool.setuptools.packages.find]
+include = ["whampy*"]
